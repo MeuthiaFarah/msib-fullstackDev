@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>Belajar Layout Web dengan Bootstrap 5</title>
+
+		<meta
+			name="description"
+			content="Source code generated using layoutit.com"
+		/>
+		<meta name="author" content="LayoutIt!" />
+
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	</head>
+	<body>
+		<div class="container-fluid" style="user-select: auto">
+			<div class="row" style="user-select: auto">
+				<div class="col-md-12" style="user-select: auto">
+					<!-- awal slider -->
+					<div
+						id="carouselExampleCaptions"
+						class="carousel slide"
+						data-bs-ride="false"
+					>
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+								aria-label="Slide 1"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide-to="2"
+								aria-label="Slide 3"
+							></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://picsum.photos/200/50"
+									class="d-block w-100"
+									alt="..."
+								/>
+								<div class="carousel-caption d-none d-md-block">
+									<h5>First slide</h5>
+									<p>Welcome to my website</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://picsum.photos/500/200"
+									class="d-block w-100"
+									alt="..."
+								/>
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Second slide</h5>
+									<p>Find your happiness here</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://picsum.photos/500/200"
+									class="d-block w-100"
+									alt="..."
+								/>
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Third slide</h5>
+									<p>
+										Travelling
+									</p>
+								</div>
+							</div>
+						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					<!-- akhir slider -->
+				</div>
+			</div>
+			<div class="row" style="user-select: auto">
+				<div class="col-md-12" style="user-select: auto">
+					<!-- awal navbar -->
+					<nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="user-select: auto;">
+						<div class="container-fluid">
+							<a class="navbar-brand" href="#">Kampus Merdeka</a>
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#navbarSupportedContent"
+								aria-controls="navbarSupportedContent"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+									<li class="nav-item">
+										<a class="nav-link active" aria-current="page" href="#"
+											><i class="bi bi-house-fill"></i> Home</a
+										>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#"><i class="bi bi-airplane-engines-fill"></i> Journey</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle"
+											href="#"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+										<i class="bi bi-person-fill"></i> About
+										</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">News</a></li>
+											<li>
+												<a class="dropdown-item" href="#">About Me</a>
+											</li>
+											<li><hr class="dropdown-divider" /></li>
+											<li>
+												<a class="dropdown-item" href="#"
+													>Contact Me</a
+												>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled">Disabled</a>
+									</li>
+								</ul>
+								<form class="d-flex" role="search">
+									<input
+										class="form-control me-2"
+										type="search"
+										placeholder="Search"
+										aria-label="Search"
+									/>
+									<button class="btn btn-outline-success" type="submit">
+										Search
+									</button>
+								</form>
+							</div>
+						</div>
+					</nav>
+					<!-- akhir navbar -->
+				</div>
+			</div>
+		</br>
+			<div class="row" style="user-select: auto">
+				<div class="col-md-3" style="user-select: auto">
+				<!-- awal sidebar -->
+				<ol class="list-group list-group-numbered">
+					<li class="list-group-item d-flex justify-content-between align-items-start">
+						<div class="ms-2 me-auto">
+							<div class="fw-bold">Solo, Central Java</div>
+							Surakarta (Javanese: ꦯꦸꦫꦏꦂꦠ), known colloquially as Solo (Javanese: ꦱꦭ, romanized: Sálá), is a city in Central Java, Indonesia. The 44 km2 (16.2 sq mi) city[4]
+						</div>
+						<span class="badge bg-primary rounded-pill">14</span>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-start">
+						<div class="ms-2 me-auto">
+							<div class="fw-bold">Bandung, West Java</div>
+							Bandung (Sundanese: ᮘᮔ᮪ᮓᮥᮀ, romanized: Bandung, Sundanese pronunciation: [ˈbandʊŋ]; /ˈbɑːndʊŋ/) is the capital city of the Indonesian province of West Java.[6]
+						</div>
+						<span class="badge bg-primary rounded-pill">14</span>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-start">
+						<div class="ms-2 me-auto">
+							<div class="fw-bold">Depok, West Java</div>
+							Depok (Sundanese: ᮓᮦᮕᮧᮊ᮪) is a landlocked city in West Java province, and located within Jakarta metropolitan area in Indonesia. It has an area of 200.29 km2
+						</div>
+						<span class="badge bg-primary rounded-pill">14</span>
+					</li>
+				</ol>
+				<!-- akhir sidebar -->
+				</div>
+				<div class="col-md-6" style="user-select: auto">
+				<!-- awal main -->
+				<!-- quotes -->
+				<div class="card">
+					<div class="card-header">
+						<i class="bi bi-chat-right-quote"></i> Quote
+					</div>
+					<div class="card-body">
+						<blockquote class="blockquote mb-0">
+							<p>“Remember that failure is an event, not a person.”.</p>
+							<footer class="blockquote-footer">Zig Ziglar <cite title="Source Title">by Momentum</cite></footer>
+						</blockquote>
+					</div>
+				</div>
+				<!-- quotes -->
+			</br>
+				<!-- card -->
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card" style="width: 18rem;">
+							<img src="https://picsum.photos/500/300" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Bandung</h5>
+								<p class="card-text">Kalo ada yang bilang Bandung kota kenangan, gue setuju banget. Di Bandung ini gua jadi aktivis Masjid yang bukan sembarang aktivis. Ketemu Dosen kece yang semangatnya ga kaya umurnya, temen keren yang ugh ga bisa diungkapkan dah, sekaligus pengalaman yg gada duanya. Intinya terimakasih udah jadi persinggahan ku untuk rehat dan mencari ilmu</p>
+								<a href="#" class="btn btn-primary">more Info</a>
+							</div>
+						</div>	
+					</div>
+					<div class="col-sm-6">
+						<div class="card" style="width: 18rem;">
+							<img src="https://picsum.photos/500/300" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Depok</h5>
+								<p class="card-text">Ya siapa sih yang ga kenal Depok. Negeri ajaib tempat viralnya hal yang ga masuk akal sampai menghebohkan dunia. Depok ini dibilang Jawa Barat, kepinggiran. Dibilang Jakarta juga bukan. Saya pun bingung kampus saya sebenernya di Jakarta atau Depok, karena jalan beberapa langkah aja rasanya udah masuk Depok haha. Pokoknya ya saya anak depok tapi bukan Citayem</p>
+								<a href="#" class="btn btn-primary">More Info</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- card -->
+			</br>
+				<!-- masih card -->
+				<div class="card mb-3">
+					<img src="https://picsum.photos/600/300" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Solo</h5>
+						<p class="card-text">Solo, The Spirit of Java. Keren banget ya. Solo udah jadi rumah kedua setelah Depok, walau sekarang lagi jatuh cinta banget sama Bandung, tapi Solo tetap dihati. Dulu tinggal 4 tahun disini bersama kawan asrama yang tau gimana keseharian gue 24/7. Bahkan mungkin mereka tau waktu -waktu dimana gua ileran atau ga sengaja kentut tengan kajian, canda ges. Yaa pokoknya, ini masuk list journey gua yang suka travelling walau ngabisin duid dan tenaga</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+				</div>
+				<!-- akhir masih card -->
+				<!-- akhir main -->
+				</div>
+				<div class="col-md-3" style="user-select: auto">
+				<!-- awal sidebar -->
+				<div class="card" style="width: 18rem;">
+					<img src="https://picsum.photos/600/400" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">About Me</h5>
+						<p class="card-text">Because my English skill is terbatas, so yang disini pake bahasa Indonesia and English aja ya. My Name is Meuthia farah Hidayah, and now I lagi kuliah di STT Terpadu Nurul Fikri semester 5 dan dalam proses mencapai gelar Bachelor of Engineering, aseeekk. Impian gua sekarang cuma stau, BISA JALAN-JALAN TANPA BAWA TUGAS KULIAH ATAUPUN ORGANISASI, sekian.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item"><i class="bi bi-github"></i> meuthiafarah</li>
+						<li class="list-group-item"><i class="bi bi-google"></i> tiasaloer@gmail.com</li>
+						<li class="list-group-item"><i class="bi bi-bookmarks-fill"></i> STT Terpadu Nurul Fikri</li>
+					</ul>
+					<div class="card-body">
+						<a href="#" class="card-link"><i class="bi bi-linkedin"></i> LinkedIn</a>
+						<a href="#" class="card-link"><i class="bi bi-instagram"></i> Instagram</a>
+					</div>
+				</div>
+				<!-- akhir sidebar -->
+				</div>
+			</div>
+			<div class="row" style="user-select: auto">
+				<div class="col-md-12" style="user-select: auto">
+					<div class="alert alert-success" role="alert">
+						Design by Meuthia Farah Hidayah
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
